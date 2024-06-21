@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mentor India </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/web.css">
+
+
+  <!-- =======================================================
+  * Template Name: eNno
+  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Mentor India</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="https://mentor-portal.netlify.app" target="_blank" onclick="alert ('You are redirected to an external website, please click ok to go with us!')">Portal</a></li>
+         
+          <li class="dropdown"><a href="#"><span>Mentor Programs</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a onclick="alert('Sorry this page is in service mode')" href="">Download Files</a></li>
+              <li><a onclick="alert('Sorry this page is in service mode')" href="">Download PYQ's</a></li>
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="login-register/login_mentor.aspx.htm">Login and Signup</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Bootstrap Modal -->
+  <style>
+    /* Additional custom styles for the Modal */
+    .modal-content {
+      padding: 20px;
+    }
+  </style>
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Mentor India <span style="color: red;">❤</span></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Your signup form goes here -->
+          <p>Hi Mentor Fam! 🖐</p>
+          <p>We are added the <code>Mentor India Examination Test Series</code> in the Mentor Store, Find well to Login and Register to the Mentor India, this series is just <code> &#8377; 150/-</code> for 'Life Time' </p>
+          <p>Something has been newly added to the Mentor Just Pay &#8377; 999/- Programming course. 
+            If you're interested in the new addition, you can enroll in the course for &#8377; 999/- to access it and fulfill your learning needs.</p>
+  
+          <p>Login and buy <code style=" font-weight: 600;">&#8377; 999/-</code > <span style="text-decoration: line-through;" hidden> 50% off</span> <code style="font-weight: 600;" hidden>Expired !</code></p>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="signupform()" >Login - Register</button>
+          <script>
+            function signupform() {
+              window.location = "/login-register/login_mentor.aspx.htm"
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </div><!-- Link to Bootstrap JS and Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Welcome to Mentor India</h1>
+          <h2>We are team of talented Mentor's to give you knowledge about the courses.</h2>
+          <div class="d-flex">
+            <a href="login-register/login_mentor.aspx.htm" class="btn-get-started scrollto">Login</a>
+             </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+   
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>About Mentor India</h3>
+            <p class="fst-italic">
+              We're here to solve your problems and increase your skills parameters in just a click, be happy, be confident, we are Mentor's.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Mentor India is a web-platform, here you get 100% course attention with guidence.</li>
+              <li><i class="bi bi-check-circle"></i>Practice is the way to get the problem solved, here you get courses with video lecture's and Test series with the result.</li>
+              <li><i class="bi bi-check-circle"></i> All the Mentor's are the kind of friend's have any problem asked any time, we'ill solved it.</li>
+            </ul>
+            <p>
+             Make your day with Mentor's and Buy courses to learn more about your skills in coding program and IIT(Jee) Programs.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="78684" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Students  </p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Courses</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Test Series</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Portals</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+   
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="container">
+          <!-- Images Filter Buttons Section -->
+          <div class="row mt-5" id="filter-buttons">
+            <div class="col-12 text-center">
+              <button id="btncourse" class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+              <button id="btncourse" class="btn mb-2 mx-1" data-filter="iitjee">IIT JEE</button>
+              <button id="btncourse" class="btn mb-2 mx-1" data-filter="coding">Mentor Coding Programs</button>
+              <button id="btncourse" class="btn mb-2 mx-1" data-filter="testSeries">Mentor India Examination Test Series</button>
+            </div>
+          </div><hr id="btncourse">
+      
+          <!-- Filterable Images / Cards Section -->
+          <div class="row px-2 mt-4 gap-3 d-flex align-items-center justify-content-center" id="filterable-cards">
+            <div class="card p-0" data-name="iitjee">
+              <img src="assets/img/jeemains.webp" width="100%" alt="img" />
+              <div class="card-body">
+                <h6 class="card-titles">Free</h6>
+                <p class="card-text"> IIT (JEE) Program</p>
+                <button style="float: right; background-color: #16df7e; color: #fff;" type="button" class="btn btn-light" onclick="btniit()">Details</button>
+              </div>
+            </div>
+            <div class="card p-0" data-name="coding">
+              <img src="assets/img/Web-Development-Course-Thumbnail.jpg" alt="img" />
+              <div class="card-body">
+                <h6 class="card-titles">₹ 999</h6>
+                <p class="card-text"> Coding Program</p>
+                <button style="float: right; background-color: #16df7e; color: #fff;"  type="button" class="btn btn-light" onclick="btncoding()">Details</button>
+              </div>
+            </div>
+            <div class="card p-0" data-name="testSeries">
+              <img src="assets/img/Testseriespackage-thumbnail.jpg" alt="img" />
+              <div class="card-body">
+                <h6 class="card-titles">₹ 150</h6>
+                <p class="card-text"> Examination Test Series</p>
+                <button style="float: right; background-color: #16df7e; color: #fff;"  type="button" class="btn btn-light" onclick="btntestSeries()">Details</button>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row  justify-content-center">
+          <div class="col-lg-6">
+            <h3>Mentor India</h3>
+            </div>
+        </div>
+
+        <div class="row footer-newsletter justify-content-center">
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mentor India</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/enno-free-simple-bootstrap-template/ -->
+        Designed by <a href="https://mentor-in.netlify.app">Mentor India</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/web.js"></script>
+
+</body>
+
+</html>
